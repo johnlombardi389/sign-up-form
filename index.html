@@ -12,10 +12,20 @@
   <main>
     <div class="left">
       <div class="form-container">
-        <h1></h1>
-        <p></p>
-        <button class="google-login"></button>
-        <form action="#"></form>
+        <h1>Welcome to the website!</h1>
+        <p>This is not a real website and you can enter any information you want to test the form.</p>
+        <button class="google-login">Login with Google</button>
+        <form action="#">
+          <fieldset class="user-info">
+            <label for="firstName">First Name</label><input type="text" id="firstName" name="first_name">
+            <label for="lastName">Last Name</label><input type="text" id="lastName" name="last_name">
+            <label for="email">Email Address</label><input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number</label><input type="tel" id="phone" name="phone">
+          </fieldset>
+          <fieldset class="user-profile"></fieldset>
+        </form>
+        <button class="sign-up">Sign Up</button>
+        <p class="have-account">Already have an account? Login</p>
       </div>
     </div>
     <div class="right"></div>
