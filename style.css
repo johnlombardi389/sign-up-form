@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+form {
+  max-width: 500px;
+  min-width: 300px;
+}
+
 fieldset {
   border: none;
   padding: 0;
   margin: 0;
   border-bottom: 1px solid black;
+}
+
+label {
+  display: block;
 }
