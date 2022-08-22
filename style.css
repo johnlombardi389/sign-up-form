@@ -6,8 +6,16 @@
 
 main {
   display: flex;
-  height: 95vh;
   justify-content: center;
+  align-items: center;
+}
+
+.form-container > h1 {
+  margin: 20px 0px;
+}
+
+.form-container > p {
+  margin-bottom: 20px;
 }
 
 form {
@@ -27,11 +35,6 @@ label {
 }
 
 .photos {
-  height: 95vh;
+  height: 100vh;
   width: auto;
-}
-
-footer {
-  height: 5vh;
-  background-color: green;
 }
