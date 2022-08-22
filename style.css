@@ -18,6 +18,17 @@ main {
   margin-bottom: 20px;
 }
 
+.google-login {
+  text-transform: none;
+}
+
+.google-login > img {
+  margin-bottom: 3px;
+  margin-right: 5px;
+  width: 20px;
+
+}
+
 form {
   max-width: 500px;
   min-width: 300px;
