@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+  height: 95vh;
+}
+
 form {
   max-width: 500px;
   min-width: 300px;
@@ -18,4 +23,9 @@ fieldset {
 
 label {
   display: block;
+}
+
+footer {
+  height: 5vh;
+  background-color: green;
 }
