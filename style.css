@@ -7,6 +7,7 @@
 main {
   display: flex;
   height: 95vh;
+  justify-content: center;
 }
 
 form {
@@ -23,6 +24,11 @@ fieldset {
 
 label {
   display: block;
+}
+
+.photos {
+  height: 95vh;
+  width: auto;
 }
 
 footer {
