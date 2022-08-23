@@ -25,11 +25,13 @@ main {
 .form-container > h1 {
   margin: 20px 0px;
   font-family: var(--header-font), sans-serif;
+  font-size: 1.5rem;
 }
 
 .form-container > p {
   margin-bottom: 20px;
   font-family: var(--para-font), sans-serif;
+  font-size: 1rem;
 }
 
 .google-login {
@@ -44,18 +46,39 @@ main {
 
 form {
   max-width: 500px;
-  min-width: 300px;
+  min-width: 305px;
 }
 
 fieldset {
   border: none;
   padding: 0;
   margin: 0;
-  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-profile {
+  margin-top: 75px;
 }
 
 label {
   display: block;
+  margin-top: 15px;
+  font-family: var(--para-font), sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+input {
+  margin: 8px 0;
+  padding: 5px;
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+}
+
+input:focus {
+  background-color: lightblue;
 }
 
 .photos {
