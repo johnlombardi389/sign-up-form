@@ -55,11 +55,10 @@ fieldset {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .user-profile {
-  margin-top: 75px;
+  margin-top: 30px;
 }
 
 label {
@@ -71,14 +70,25 @@ label {
 }
 
 input {
-  margin: 8px 0;
-  padding: 5px;
-  width: 300px;
+  padding: 3px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  font-size: 0.75rem;
+  opacity: 50%;
   background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(77, 77, 77);
+  border-radius: 3px;
 }
 
 input:focus {
-  background-color: lightblue;
+  outline: none;
+  border: 1px solid blue;
+}
+
+.sign-up {
+  width: 150px;
+  margin: 20px 0px;
 }
 
 .photos {
