@@ -3,6 +3,9 @@
 :root {
   --header-font: "Kanit";
   --para-font: "Hind Madurai";
+
+  --clr-green: #7f891d;
+  --clr-blue: #128dd7;
 }
 
 *,
@@ -20,24 +23,27 @@ main {
 }
 
 .left {
-  max-width: 300px;
+  max-width: 450px;
   margin-right: 100px;
 }
 
-.form-container > h1 {
-  margin: 20px 0px;
-  font-family: var(--header-font), sans-serif;
-  font-size: 1.5rem;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-container > p {
-  margin-bottom: 20px;
-  font-family: var(--para-font), sans-serif;
-  font-size: 1rem;
+.form-container > h1 {
+  margin-bottom: 50px;
+  font-family: var(--header-font), sans-serif;
+  font-size: 2rem;
 }
 
 .google-login {
   text-transform: none;
+  margin-bottom: 20px;
+  width: 300px;
 }
 
 .google-login > img {
@@ -49,6 +55,10 @@ main {
 form {
   max-width: 500px;
   min-width: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 fieldset {
@@ -89,7 +99,7 @@ input:focus {
 }
 
 .sign-up {
-  width: 150px;
+  width: 300px;
   margin: 20px 0px;
 }
 
