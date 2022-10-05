@@ -1,4 +1,5 @@
 # sign-up-form
 
+## Image Credits
 
-Photo by Peter Fogden on Unsplash
+Peter Fogden: https://unsplash.com/photos/toB7tKXne7U
