@@ -14,6 +14,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main>
@@ -35,11 +37,9 @@
             <fieldset class="user-info">
               <label for="firstName">First Name</label
               ><input type="text" id="firstName" name="first_name" required />
-              <div id="first-name-error" class="error"></div>
 
               <label for="lastName">Last Name</label
               ><input type="text" id="lastName" name="last_name" />
-              <div id="last-name-error" class="error"></div>
 
               <label for="email">Email Address</label
               ><input type="email" id="email" name="email" required />
@@ -47,20 +47,12 @@
 
               <label for="phone">Phone Number</label
               ><input type="tel" id="phone" name="phone" pattern="[0-9]{10}" />
-              <div id="tel-error" class="error"></div>
             </fieldset>
             <fieldset class="user-profile">
               <label for="userName">Username</label
               ><input type="text" id="userName" name="username" required />
-              <label for="userPassword">Password</label
-              ><input
-                type="text"
-                id="userPassword"
-                name="user_password"
-                required
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-              />
-              <div id="password-error" class="error"></div>
+              <label for="userPassword">Password</label><input type="text"
+              id="userPassword" name="user_password" required " />
             </fieldset>
 
             <button class="btn btn-outline-primary sign-up" type="submit">
