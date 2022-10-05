@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;600;700&family=Kanit:wght@200;400;600;800&display=swap");
 
 :root {
-  --header-font: "Kanit";
-  --para-font: "Hind Madurai";
+  --header-font: "Kanit", sans-serif;
+  --para-font: "Hind Madurai", sans-serif;
 
   --clr-green: #7f891d;
   --clr-blue: #0b5ed7;
@@ -102,6 +102,7 @@ input {
 input:focus {
   outline: none;
   border: 1px solid blue;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .sign-up {
@@ -112,4 +113,11 @@ input:focus {
 .photos {
   height: 100vh;
   width: auto;
+}
+
+.error {
+  font-family: var(--para-font);
+  font-size: 0.7rem;
+  color: rgb(255, 69, 100);
+  position: absolute;
 }
