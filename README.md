@@ -21,6 +21,7 @@ In this project I focused on the front-end development of a simple sign-up form,
 
 - Creating forms in HTML and how to use many different validations
 - Getting a basic understanding of how to style forms to accept user input
+- Incorporating bootstrap into the front-end
 
 ## Image Credits
 
